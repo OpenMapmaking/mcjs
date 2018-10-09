@@ -1,0 +1,24 @@
+{
+  "name": "mcjs",
+  "version": "0.1.0",
+  "description": "Minecraft commands generated with JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "minecraft",
+    "javacript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.18.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "bin": {
+    "mcjs": "cli.js"
+  }
+}
