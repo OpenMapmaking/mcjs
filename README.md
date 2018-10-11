@@ -18,7 +18,7 @@ mcjs --help
 1. Install Node.js, open a terminal and type:
 
 ```
-npm install %name%
+npm install @open-mapmaking/mcjs
 ```
 
 2. Create a `test.mcjs` file containing:

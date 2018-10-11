@@ -1,5 +1,5 @@
 {
-  "name": "mcjs",
+  "name": "@open-mapmaking/mcjs",
   "version": "0.1.0",
   "description": "Minecraft commands generated with JavaScript",
   "main": "index.js",
@@ -10,12 +10,24 @@
     "minecraft",
     "javacript"
   ],
-  "author": "",
+  "author": "open-mapmaking",
   "license": "MIT",
   "dependencies": {
     "commander": "^2.18.0"
   },
   "bin": {
     "mcjs": "cli.js"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenMapmaking/mcjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OpenMapmaking/mcjs/issues"
+  },
+  "homepage": "https://github.com/OpenMapmaking/mcjs#readme"
 }
