@@ -50,3 +50,41 @@ say Summoned zombie!
 summon bat ~ ~ ~
 say Summoned bat!
 ```
+
+### The `cmd` function
+
+When the `cmd` function is called from a `.mcjs` file, it outputs the string it gets to the final `.mcfunction` file:
+
+* `test.mcjs`
+
+```javascript
+cmd('say hello')
+cmd('summon creeper ~ ~ ~')
+```
+
+* `test.mcfunction`
+
+```
+say hello
+summon creeper ~ ~ ~
+```
+
+`cmd` is also a *template tag*, which means that multiline strings are available:
+
+* `test.mcjs`
+
+```javascript
+let name = 'Steve'
+
+cmd`
+say ${name}!
+say ${name.toUpperCase()}!!
+`
+```
+
+* `test.mcfunction`
+
+```
+say Steve!
+say STEVE!!
+```
