@@ -24,9 +24,11 @@ npm install %name%
 2. Create a `test.mcjs` file containing:
 
 ```javascript
+// Regular javascript
 let entities = ['creeper', 'zombie', 'bat']
 
 for (let entity of entities) {
+  // cmd function is used to output Minecraft commands
   cmd`
   summon ${entity} ~ ~ ~
   say Summoned ${entity}!
