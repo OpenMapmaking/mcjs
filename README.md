@@ -42,7 +42,7 @@ for (let entity of entities) {
 mcjs test.mcjs
 ```
 
-It will create `test.mcfunction` in the same folder with the following content:
+`test.mcjs` is interpreted like regular javascript. A `test.mcfunction` file is generated from its execution, in the same folder. It contains all commands passed to the `cmd` function:
 
 ```
 summon creeper ~ ~ ~
