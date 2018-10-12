@@ -1,6 +1,6 @@
 {
   "name": "@open-mapmaking/mcjs",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Minecraft commands generated with JavaScript",
   "main": "index.js",
   "scripts": {
