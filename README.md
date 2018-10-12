@@ -2,6 +2,8 @@
 
 Minecraft commands generated with JavaScript.
 
+[Documentation](https://openmapmaking.github.io/mcjs/)
+
 ## Features
 
 * Compiles `.mcjs` files to `.mcfunction`.
@@ -18,7 +20,7 @@ mcjs --help
 1. Install Node.js, open a terminal and type:
 
 ```
-npm install @open-mapmaking/mcjs
+npm install -g @open-mapmaking/mcjs
 ```
 
 2. Create a `test.mcjs` file containing:
