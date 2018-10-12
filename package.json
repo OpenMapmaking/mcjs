@@ -1,6 +1,6 @@
 {
   "name": "@open-mapmaking/mcjs",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Minecraft commands generated with JavaScript",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,8 @@
   "author": "open-mapmaking",
   "license": "MIT",
   "dependencies": {
-    "commander": "^2.19.0"
+    "commander": "^2.19.0",
+    "watch": "^1.0.2"
   },
   "bin": {
     "mcjs": "cli.js"
